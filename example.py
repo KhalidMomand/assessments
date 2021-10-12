@@ -3,6 +3,8 @@
 def git_operation():
    print('I am adding example.py file to the remote repository.')
 
-git_operation()
+
+if __name__ == "__main__:
+   git_operation()
 
 
